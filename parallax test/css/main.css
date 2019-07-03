@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+header .parallax-window {
+  min-height: 950px;
+  width: 100%;
+  position: absolute;
+}
+
+header .content {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 350px;
+  text-align: center;
+}
+
+header .content h1 {
+  font-size: 62px;
+  color: #fff;
+  text-shadow: #333 1px 1px 0, #333 -1px -1px 0, #333 -1px 1px 0, #333 1px -1px 0;
+  margin-bottom: 15px;
+}
+
+header .content h2 {
+  font-size: 26px;
+  color: #fff;
+  text-shadow: #333 1px 1px 0, #333 -1px -1px 0, #333 -1px 1px 0, #333 1px -1px 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+header .content p {
+  color: #f3f3f3;
+  color-text-shadow: #333 1px 1px 0, #333 -1px -1px 0, #333 -1px 1px 0, #333 1px -1px 0;
+}
+
+.water {
+  height: 2000px;
+  padding: 40px;
+}
+
+.water p {
+  font-size: 80px;
+}
+/*# sourceMappingURL=main.css.map */
