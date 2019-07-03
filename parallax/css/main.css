@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#scene {
+  background-color: #3a536d;
+}
+
+.text {
+  font-size: 48px;
+  color: #fff;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 400px;
+  left: 700px;
+}
+/*# sourceMappingURL=main.css.map */
