@@ -21,6 +21,7 @@ header li {
 }
 
 header .text {
+  text-align: center;
   text-shadow: #d5d5d5 1px 1px 0, #d5d5d5 -1px -1px 0, #d5d5d5 -1px 1px 0, #d5d5d5 1px -1px 0;
   color: #fcfcec;
   font-size: 24px;
@@ -29,6 +30,11 @@ header .text {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+header .text span {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
 }
 
 header .bgl {
