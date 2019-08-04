@@ -1,0 +1,35 @@
+html {
+    overflow-x: hidden
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);    animation: gradient 10s ease infinite;
+    background-size: 300% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header p {
+    font-family: 'Barriecito', cursive;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+}
+
+section {
+    padding: 50px;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
