@@ -37,3 +37,8 @@ section {
         background-position: 0 50%;
     }
 }
+@media screen and (max-width: 580px) {
+    header p {
+        font-size: 36px;
+    }
+}
